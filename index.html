@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="choropleth_map"></div>
+
+    <script type="text/javascript">
+
+    var spec2 = "js/choropleth.json";
+    vegaEmbed('#choropleth_map', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+</script>
+</body>
+
+</html>
