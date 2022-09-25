@@ -13,10 +13,10 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/JiazhouLiu/FIT3179/main/VegaLite/3_choropleth_map/data/covid_10_10_2020.csv"
+          "url": "https://raw.githubusercontent.com/kgoh0018/FIT3179-Assignment2/main/data/ds_salaries.csv"
         },
-        "key": "Country",
-        "fields": ["Active"]
+        "key": "employee_residence",
+        "fields": ["salary_in_usd"]
       }
     },
     {"calculate": "datum.Active + 0.1", "as": "Active Cases"}
